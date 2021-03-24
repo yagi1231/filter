@@ -5,56 +5,61 @@
         <title>リアルタイムフィルター</title>
         <link rel="stylesheet" href="filter.css">
         <script src="jquery-3.5.1.min.js"></script>
+         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+         <!--この上１行が大切！！-->
     </head>
     <body>
-        <h2>リアルタイムフィルター</h2>
-        <p>入力した文字を含まない要素は非表示となります</p>
-        <input type="text" class="input_text" placeholder="キーワードを入力してください">
-        <div class="exhibition">
-            <div class="filter_img">
-                <div class="contain_img">
-                    <img src="#" alt="airplain">
+        <div id="main">
+            <p id="header">リアルタイムフィルター</p>
+            <p id="header-text">入力した文字を含まない要素は非表示になります</p>
+            <input type="text" class="input_text"   placeholder="文字を入力してください">
+         
+         <div class="contents">
+           <div class="contents-width">
+             <div class="contents-box">
+                
+                 <img src="big_main10015782_20200806113200000000 (1).jpg">
+                 <p class="text">キーワード</p>
+                 <div class="keyword_list">
+                    <p>車</p>
+                    <p>くるま</p>
+                    <p>car</p>
                 </div>
-                <p class="keywords">キーワード</p>
-                <div class="keyword_list">
-                    <p>飛行機</p>
-                    <p>ひこうき</p>
-                    <p>hikouki</p>
+             </div>
+             <div class="contents-box">
+             <img src="sky_00165.jpg">
+                
+                 <p class="text">キーワード</p>
+                 <div class="keyword_list">
+                    <p>青空</p>
+                    <p>あおぞら</p>
+                    <p>sky</p>
                 </div>
-            </div>
-            <div class="filter_img">
-                <div class="contain_img">
-                    <img src="#" alt="dolphin">
+             </div>
+             <br>
+             <div class="contents-box">
+                 <img src="ダウンロード.jpeg">
+                 <p class="text">キーワード</p>
+                 <div class="keyword_list">
+                    <p>朝顔</p>
+                    <p>あさがお</p>
+                    <p>mornig glory</p>
                 </div>
-                <p class="keywords">キーワード</p>
-                <div class="keyword_list">
-                    <p>いるか</p>
-                    <p>iruka</p>
+             </div>
+             <div class="contents-box">
+                  <img src="ダウンロード (1).jpeg">
+                 <p class="text">キーワード</p>
+                 <div class="keyword_list">
+                    <p>馬</p>
+                    <p>うま</p>
+                    <p>horse</p>
                 </div>
-            </div>
-            <div class="filter_img">
-                <div class="contain_img">
-                    <img src="#" alt="cherry-blossoms">
-                </div>
-                <p class="keywords">キーワード</p>
-                <div class="keyword_list">
-                    <p>桜</p>
-                    <p>さくら</p>
-                    <p>sakura</p>
-                </div>
-            </div>
-            <div class="filter_img">
-                <div class="contain_img">
-                    <img src="#" alt="train">
-                </div>
-                <p class="keywords">キーワード</p>
-                <div class="keyword_list">
-                    <p>蒸気機関車</p>
-                    <p>じょうききかんしゃ</p>
-                    <p>joukikikansya</p>
-                </div>
-            </div>
+             </div>
+           </div>
+         </div>
         </div>
-        <script type="text/javascript" src="filter.js" charset="UTF-8"></script>
+ <script type="text/javascript" src="filter.js" charset="UTF-8"></script>
+  
+
     </body>
 </html>

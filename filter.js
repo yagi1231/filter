@@ -12,7 +12,7 @@ function Search(text){
 $(".input_text").on("input", function(event){
     let text = $(".input_text").val();
     if(text === ""){
-        $(".filter_img").css("display", "block");
+        $(".contents-width").css("display", "block");
     }else{
         Search(text);
     }
