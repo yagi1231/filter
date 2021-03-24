@@ -12,8 +12,8 @@ function Search(text){
 $(".input_text").on("input", function(event){
     let text = $(".input_text").val();
     if(text === ""){
-        $(".contents-width").css("display", "block");
+        $(".contents-box").css("display", "block");
     }else{
         Search(text);
     }
-});
+});s
